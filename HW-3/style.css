@@ -577,7 +577,7 @@ details summary::-webkit-details-marker {
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid #EAEAEA;
-    border bottom: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
 }
 .left__img {
     background-image: url(img/left.svg);
