@@ -290,17 +290,24 @@ details summary::-webkit-details-marker {
     align-items: center;
 }
 
-.home, .catalog__men {
+.info__link {
     font-size: 14px;
     line-height: 17px;
     color: #636363;
 }
-
-.men-new__arrivals {
-    font-size: 14px;
-    line-height: 17px;
+.info__link:hover {
     color: #F16D7F;
 }
+
+.info__link:not(:last-child)::after {
+    content: "/";
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.info__link:last-child {
+    color: #F16D7F;
+}
+
 
 
 .featured {
